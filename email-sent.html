@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yard Sale | email has been sent</title>
+    <style>
+        @import url(./global-styles.css);
+        .email-icon{
+            background-image: url("./icons/email.svg");
+            background-repeat: no-repeat;
+            height: 142px;
+            width: 142px;
+            justify-self: center;
+            background-color: var(--text-input-field);
+            background-position: center;
+            border-radius: 50%;
+            margin: 32px 0;
+        }
+        .no-email{
+            margin-top: 28px;
+        }
+        .no-email a{
+            color: var(--hospital-green);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <img 
+            src="./logos/logo_yard_sale.svg" 
+            alt="logo"
+            class="logo">
+
+            <h1 class="title">Email has been sent!</h1>
+            <p class="text">Please check your inbox for instructions on how to reset the password</p>
+
+            <div class="email-icon">
+            </div>
+            
+            <button class="button">
+                Login
+            </button>
+
+            <p class="text no-email">Didn't receive the email? <a href="/"><strong>Resend</strong></a></p>
+        </div>
+    </section>
+</body>
+</html>
