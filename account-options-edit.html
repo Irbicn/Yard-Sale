@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yard Sale | account settings</title>
+    <style>
+        @import url("./global-styles.css");
+        .account-title{
+            text-align: left;
+            margin-bottom: 44px;
+        }
+        .form{
+            height: 100vh;
+            align-items: space-between;
+        }
+        .form label{
+            font-size: var(--md);
+            font-weight: bold;
+        }
+        .form div{
+            display: flex;
+            flex-direction: column;
+        }
+        @media (min-width: 600px) {
+            .form{
+                align-items: center;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+   
+    <section class="section">
+        <div class="container">
+
+            <form action="/" class="form">
+                <div>
+                    <h1 class="title account-title">My account</h1>
+
+                    <label for="name">
+                        Name
+                    </label>
+                    <input 
+                    type="text"
+                    id="name"
+                    class="input"
+                    placeholder="Camila Yokoo">
+                    <label for="email">
+                        Email address
+                    </label>
+                    <input 
+                    type="text"
+                    id="email"
+                    class="input"
+                    placeholder="email@example.com">
+                    <label for="">
+                        Password
+                    </label>
+                    <input 
+                    type="password"
+                    id="password"
+                    class="input"
+                    placeholder="**********">
+                </div>
+                <input type="button" name="" id="" class="button" value="Save">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
